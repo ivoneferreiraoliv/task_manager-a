@@ -1,0 +1,26 @@
+{
+"name": "curso-php/task_manager",
+"description": "Task Manager",
+"version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ivone",
+            "email": "ivoneferreiraoliv@gmail.com"
+        }
+    ], 
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files":[
+            "app/helpers/Validate.php",
+            "config/database.php",
+            "app/controllers/UsuariosController.php"
+
+    ]
+
+
+    }
+
+}

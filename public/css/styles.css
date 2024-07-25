@@ -1,0 +1,237 @@
+body {
+    font-family: "Ubuntu Mono", sans-serif;
+    background-color: #cfcbcff8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100vh;
+}
+
+.saudacao{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+
+}
+
+header {
+    background-color: #be5edB;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: #be5edb;
+    color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza os itens verticalmente */
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha em telas menores */
+    padding: 20px; /* Adiciona um pouco de preenchimento ao redor do container */
+    gap: 20px; /* Adiciona espaço entre os itens */
+}
+
+.login-container {
+    flex: 1; /* Permite que o container de login cresça para ocupar o espaço disponível */
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.side_image {
+    flex: 1; /* Permite que a imagem cresça para ocupar o espaço disponível */
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.login_btn {
+    background-color: #9149a7fa;
+    color: white;
+}
+
+.register_btn {
+    background-color: #d480eee0;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.register-container {
+    flex: 1; /* Permite que o container de registro cresça para ocupar o espaço disponível */
+    max-width: 400px; /* Define a largura máxima do container para manter a consistência com o container de login */
+    background-color: white; /* Define a cor de fundo para branco */
+    padding: 20px; /* Adiciona preenchimento interno para espaçar os elementos dentro do container */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Adiciona uma sombra sutil ao redor do container para destacá-lo */
+    margin: auto; /* Centraliza o container na página */
+}
+
+.register-form h2 {
+    text-align: center; /* Centraliza o texto do título */
+    margin-bottom: 20px; /* Adiciona uma margem abaixo do título para espaçamento */
+}
+
+.register-form input {
+    width: 100%; /* Faz com que os campos de input ocupem toda a largura disponível */
+    padding: 10px; /* Adiciona preenchimento interno para tornar os campos de input mais altos */
+    margin-bottom: 15px; /* Adiciona uma margem abaixo de cada campo de input para espaçamento */
+    border: 1px solid #ddd; /* Define a cor da borda dos campos de input */
+    border-radius: 4px; /* Arredonda as bordas dos campos de input */
+}
+
+.register-form button {
+    width: 100%; /* Faz com que o botão ocupe toda a largura disponível */
+    padding: 10px; /* Adiciona preenchimento interno para aumentar a altura do botão */
+    border: none; /* Remove a borda do botão */
+    color: white; /* Define a cor do texto do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    border-radius: 4px; /* Arredonda as bordas do botão */
+}
+
+.register-btn {
+    background-color: #9149a7fa; /* Define a cor de fundo do botão de registro para manter a consistência com o botão de login */
+}
+
+
+/*tarefas*/
+
+#perfil-btn {
+    background-color: #9149a7fa;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#task-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#task-form input[type="text"],
+#task-form input[type="date"],
+#task-form select,
+#task-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#task-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #9149a7fa;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#tasks-container {
+    margin-top: 20vh;
+    margin-left: 7vh;
+    width: 90%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-table th, .task-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.task-table th {
+    background-color: #be5edb;
+    color: white;
+}
+
+.task-table td {
+    background-color: white;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-edit {
+    background-color: #4caf50;
+}
+
+.btn-delete {
+    background-color: #f44336;
+}
+
+.inline-form {
+    display: inline;
+}
+
+.btn i {
+    font-size: 16px;
+}

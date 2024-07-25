@@ -1,0 +1,10 @@
+
+Todo:
+  ☐ Requisições AJAX
+    ✔ Listar tasks filtrando pelo ID (Read) @done(24-07-01 23:44)
+    ✔ Adicionar task via Ajax (Create) @done(24-07-01 23:44)
+    ☐ Editar tarefas (Update)
+    ✔ Excluir tarefas (Delete) @done(24-07-28 15:27)
+      obs: não está excluindo da tabela
+  ✔ Remover o que não funciona @done(24-07-01 23:44)
+  ✔ Implementar sessão do usuário @done(24-07-01 23:44)
